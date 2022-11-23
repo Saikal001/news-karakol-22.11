@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  padding: 10px 15px;
+  background-color: aqua;
+  flex: 1 1 100%;
+}
+aside{
+  padding: 10px 15px;
+  background-color: greenyellow;
+  flex: 1 1 0px;
+}
+article{
+ padding: 10px 15px;
+  background-color: rgb(255, 136, 0);
+  
+  flex: 1 1 50px;
+
+
+}
+p{
+  background-color: blueviolet;
+  flex: 1 1 0px;
+  
+}
+footer{
+  padding: 10px 15px;
+  background-color: rgb(0, 255, 21);
+  
+  flex: 1 1 100%;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+margin:0 auto;
+max-width: 880px;
+}
+section{
+  display: flex;
+background-color: aquamarine;
+margin: 10px;
+
+}
+div{
+
+  max-width: 150px;
+  margin: 10px;
+}
+
+.col-3 {
+  flex: 25% 0 0;
+}
